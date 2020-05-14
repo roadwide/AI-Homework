@@ -7,24 +7,24 @@
 
 ### 搜索算法
 
-- [A星八数码](./Search Algorithms/Astar/README.md)
-- [广度优先](./Search Algorithms/DFS/README.md)
-- [深度优先](./Search Algorithms/BFS/README.md)
+- [A星八数码](https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/Astar)
+- [广度优先](.https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/BFS)
+- [深度优先](https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/DFS)
 
 Tips:三种算法都用于解决八数码问题。在Astar算法中比较了三者的性能，显然Astar要比另外两个强
 
 ### 智能优化算法
 
-- [粒子群寻优算法](./Intelligent Optimization Algorithm/PSO/README.md)
-- [遗传算法](./Intelligent Optimization Algorithm/GA/README.md)
-- [蚁群算法](./Intelligent Optimization Algorithm/ACO/README.md)
+- [粒子群寻优算法](https://github.com/roadwide/AI-Homework/tree/master/Intelligent%20Optimization%20Algorithm/PSO)
+- [遗传算法](https://github.com/roadwide/AI-Homework/tree/master/Intelligent%20Optimization%20Algorithm/GA)
+- [蚁群算法](https://github.com/roadwide/AI-Homework/tree/master/Intelligent%20Optimization%20Algorithm/ACO)
 
 Tips:三种算法都用于解决TSP问题，其中粒子群寻优算法不适合解决TSP问题，但经过改造后仍然可以用于解决TSP。数据集是att48，其最优解是10628/33523，这两个数分别是伪欧氏距离和欧氏距离
 
 ### 深度学习
 
-- [BP神经网络](./Deep Learning/BP/README.md)
-- [卷积神经网络](./Deep Learning/CNN/README.md)
+- [BP神经网络](https://github.com/roadwide/AI-Homework/tree/master/Deep%20Learning/BP/)
+- [卷积神经网络](https://github.com/roadwide/AI-Homework/tree/master/Deep%20Learning/CNN)
 
 Tips:两种算法都用于解决手写体识别。由于使用的是TensorFlow，已经很好的实现了深度学习的功能。所以主要是学习了深度学习的原理，并能够使用TensorFlow。（其实这个例子在官方教程就有）
 
