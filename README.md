@@ -7,16 +7,16 @@
 
 ### 搜索算法
 
-- [A星八数码](https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/Astar)
-- [广度优先](https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/BFS)
 - [深度优先](https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/DFS)
+- [广度优先](https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/BFS)
+- [A星八数码](https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/Astar)
 
 Tips:三种算法都用于解决八数码问题。在Astar算法中比较了三者的性能，显然Astar要比另外两个强
 
 ### 智能优化算法
 
-- [粒子群寻优算法](https://github.com/roadwide/AI-Homework/tree/master/Intelligent%20Optimization%20Algorithm/PSO)
 - [遗传算法](https://github.com/roadwide/AI-Homework/tree/master/Intelligent%20Optimization%20Algorithm/GA)
+- [粒子群寻优算法](https://github.com/roadwide/AI-Homework/tree/master/Intelligent%20Optimization%20Algorithm/PSO)
 - [蚁群算法](https://github.com/roadwide/AI-Homework/tree/master/Intelligent%20Optimization%20Algorithm/ACO)
 
 Tips:三种算法都用于解决TSP问题，其中粒子群寻优算法不适合解决TSP问题，但经过改造后仍然可以用于解决TSP。数据集是att48，其最优解是10628/33523，这两个数分别是伪欧氏距离和欧氏距离
