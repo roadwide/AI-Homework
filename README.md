@@ -8,7 +8,7 @@
 ### 搜索算法
 
 - [A星八数码](https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/Astar)
-- [广度优先](.https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/BFS)
+- [广度优先](https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/BFS)
 - [深度优先](https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/DFS)
 
 Tips:三种算法都用于解决八数码问题。在Astar算法中比较了三者的性能，显然Astar要比另外两个强
