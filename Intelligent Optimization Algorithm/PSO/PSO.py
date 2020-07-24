@@ -51,14 +51,16 @@ def multiply(w,v):
 #鸟个体的类，实现鸟位置的移动
 class Bird:
     def __init__(self,addr):
-        self.addr=addr
+        self.addr=addr[:]
         self.v=0
         #初始化时自己曾遇到得最优位置就是初始化的位置
-        self.bestAddr=addr
+        # 经过尝试，发现在原代码中self.addr和self.bestAddr共同指向了addr，任一方的修改都会影响另一个变量(有时变好有时变差)，并且self.bestFit不会同步更新。因此在原代码中deltam始终为空集合，导致粒子的速度更新时从未考虑自己的最优值
+        # 对init和upData中的代码进行了修改，添加[:]可避免self.addr和self.bestAddr共同访问同一存储空间的问题，加快收敛。
+        self.bestAddr=addr[:]
         #初始状态没有速度
         self.v=[]
-        self.fit=calcfit(self.addr)
-        self.bestFit=self.fit
+        self.fit=calcfit(addr)
+        self.bestFit=calcfit(addr)
 
     #根据交换序移动位置
     def switch(self,switchq):
@@ -74,7 +76,7 @@ class Bird:
         self.fit=newfit
         if(newfit>self.bestFit):
             self.bestFit=newfit
-            self.bestAddr=self.addr
+            self.bestAddr=self.addr[:]
 
     #变异操作
     #设置变异后避免了所有鸟都聚集到一个离食物近，但又不是最近的地方，并且就停在那里不动了
