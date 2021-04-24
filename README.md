@@ -11,6 +11,8 @@
 2. [广度优先](https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/BFS)
 3. [A星八数码](https://github.com/roadwide/AI-Homework/tree/master/Search%20Algorithms/Astar)
 
+博客园地址：[https://www.cnblogs.com/roadwide/p/12890295.html](https://www.cnblogs.com/roadwide/p/12890295.html)
+
 Tips:三种算法都用于解决八数码问题。在Astar算法中比较了三者的性能，显然Astar要比另外两个强
 
 ### 智能优化算法
@@ -19,12 +21,16 @@ Tips:三种算法都用于解决八数码问题。在Astar算法中比较了三�
 2. [粒子群寻优算法](https://github.com/roadwide/AI-Homework/tree/master/Intelligent%20Optimization%20Algorithm/PSO)
 3. [蚁群算法](https://github.com/roadwide/AI-Homework/tree/master/Intelligent%20Optimization%20Algorithm/ACO)
 
+博客园地址：[https://www.cnblogs.com/roadwide/p/12890309.html](https://www.cnblogs.com/roadwide/p/12890309.html)
+
 Tips:三种算法都用于解决TSP问题，其中粒子群寻优算法不适合解决TSP问题，但经过改造后仍然可以用于解决TSP。数据集是att48，其最优解是10628/33523，这两个数分别是伪欧氏距离和欧氏距离
 
 ### 深度学习
 
 1. [BP神经网络](https://github.com/roadwide/AI-Homework/tree/master/Deep%20Learning/BP/)
 2. [卷积神经网络](https://github.com/roadwide/AI-Homework/tree/master/Deep%20Learning/CNN)
+
+博客园地址：[https://www.cnblogs.com/roadwide/p/12890316.html](https://www.cnblogs.com/roadwide/p/12890316.html)
 
 Tips:两种算法都用于解决手写体识别。由于使用的是TensorFlow，已经很好的实现了深度学习的功能。所以主要是学习了深度学习的原理，并能够使用TensorFlow。（其实这个例子在官方教程就有）
 
