@@ -142,7 +142,8 @@ def isin(g,gList):
     return res
 
 #计算逆序数之和
-def N(nums):
+def N(grid):
+    nums = [i for item in grid for i in item]
     N=0
     for i in range(len(nums)):
         if(nums[i]!=0):
